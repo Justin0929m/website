@@ -187,7 +187,7 @@ i {
 }
 
 .details-side-header {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 
@@ -314,11 +314,17 @@ i {
     position: relative;
     border: none;
     height: 100%;
+    width: 100%;
     text-align: center;
   }
 
+  .left-side-details > img{
+    margin: auto;
+  }
+
   .details-header {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .small-detail-sections {
@@ -343,6 +349,13 @@ i {
     height: 100%;
   }
 
+  .contact-title{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-block: 1rem;
+  }
+
   .contact-left-side {
     border: none;
     width: 100%;
@@ -350,5 +363,14 @@ i {
 
   .contact-right-side{
     width: 100%;
+  }
+
+  .contact-right-side > p{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .btn{
+    margin: 1rem 0 2rem 0;
   }
 }
